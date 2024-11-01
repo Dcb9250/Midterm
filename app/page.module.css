@@ -1,0 +1,49 @@
+.artifact {
+	max-width: max-content;
+	padding: 20px;
+}
+
+.artifact h2 {
+	font-family: cursive;
+	font-size: 25px;
+}
+
+.artifact p {
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	font-size: medium;
+}
+
+.layout {
+	display: flex;
+	flex-direction: row;
+	margin: 5px;
+}
+
+.page {
+   background-color: antiquewhite;
+	display: flow-root;
+	font-family: cursive;
+	font-size: xx-large;
+	overflow-x: auto;
+	overflow-y: hidden;
+	padding: 5px;
+}
+
+.palette {
+    display: flex;
+    flex-direction: row;
+}
+
+.pic {
+	border:goldenrod groove 10px;
+}
+
+.square {
+    display:flow-root;
+    background-color: palette[0];
+    border: 1px solid black;
+    height: 50px;
+    margin: 10px;
+    width: 50px;
+}
